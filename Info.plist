@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>hand</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>HandBundleIcon.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>PhoneFinger Hand</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>InMemory</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>PhoneFinger Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>PhoneFinger Help</string>
+	<key>CFBundleIconFile</key>
+	<string>iPhoneFinger.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.wonderwarp.phonefinger</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>PƒnG</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>http://www.wonderwarp.com/update/phonefinger.xml</string>
+</dict>
+</plist>

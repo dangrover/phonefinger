@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iphonefinger' target in the 'iphonefinger' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

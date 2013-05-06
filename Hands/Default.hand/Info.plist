@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PFHandName</key>
+	<string>Default</string>
+	<key>PFHandAuthor</key>
+	<string>Wonder Warp Software</string>
+	<key>PFHandDescription</key>
+	<string>Default hand for PhoneFinger</string>
+	<key>PFHandUpImage</key>
+	<string>up.png</string>
+	<key>PFHandDownImage</key>
+	<string>down.png</string>
+	<key>PFHandHotspotX</key>
+	<integer>160</integer>
+	<key>PFHandHotspotY</key>
+	<integer>40</integer>
+</dict>
+</plist>

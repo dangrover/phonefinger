@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D12C4430DAFE28B00FFBAFB /* iPhoneFinger.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4D12C4420DAFE28B00FFBAFB /* iPhoneFinger.icns */; };
+		4D18F1BD0D98B207001B6606 /* PFHandWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D18F1BC0D98B207001B6606 /* PFHandWindow.m */; };
+		4D18F1CA0D98B259001B6606 /* PFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D18F1C90D98B259001B6606 /* PFAppDelegate.m */; };
+		4D5BF9A60DF8ED2800F62675 /* fingerprint1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BF9A50DF8ED2800F62675 /* fingerprint1.png */; };
+		4D5BF9AD0DF8ED4700F62675 /* PFFingerprintWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF9AC0DF8ED4700F62675 /* PFFingerprintWindow.m */; };
+		4D786D180EFC6B9E00443870 /* PFHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D786D170EFC6B9E00443870 /* PFHand.m */; };
+		4D786E450EFD3A2800443870 /* NSImage+ProportionalScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D786E440EFD3A2800443870 /* NSImage+ProportionalScaling.m */; };
+		4D786EEB0EFD4D1100443870 /* HandBundleIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4D786EEA0EFD4D1100443870 /* HandBundleIcon.icns */; };
+		4D786F6D0EFD616900443870 /* Hands in Resources */ = {isa = PBXBuildFile; fileRef = 4D786F5C0EFD616900443870 /* Hands */; };
+		4D8B7BDD0DB42A890053DE50 /* NSWindow+Transforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B7BDC0DB42A890053DE50 /* NSWindow+Transforms.m */; };
+		4D9FE1D70DF92393001D647E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9FE1D50DF92393001D647E /* MainMenu.xib */; };
+		4D9FE2C00DF933F7001D647E /* PhoneFinger Help in Resources */ = {isa = PBXBuildFile; fileRef = 4D9FE2BA0DF933F7001D647E /* PhoneFinger Help */; };
+		4DF381B70DF9F9960095214E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF381B60DF9F9960095214E /* Sparkle.framework */; };
+		4DF381CF0DF9F9CA0095214E /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DF381B60DF9F9960095214E /* Sparkle.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DF381E90DF9F9D60095214E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4DF381CF0DF9F9CA0095214E /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* PhoneFinger_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneFinger_Prefix.pch; sourceTree = "<group>"; };
+		4D12C4420DAFE28B00FFBAFB /* iPhoneFinger.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iPhoneFinger.icns; sourceTree = "<group>"; };
+		4D18F1BB0D98B207001B6606 /* PFHandWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFHandWindow.h; sourceTree = "<group>"; };
+		4D18F1BC0D98B207001B6606 /* PFHandWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFHandWindow.m; sourceTree = "<group>"; };
+		4D18F1C80D98B259001B6606 /* PFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFAppDelegate.h; sourceTree = "<group>"; };
+		4D18F1C90D98B259001B6606 /* PFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFAppDelegate.m; sourceTree = "<group>"; };
+		4D5BF9A50DF8ED2800F62675 /* fingerprint1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fingerprint1.png; sourceTree = "<group>"; };
+		4D5BF9AB0DF8ED4700F62675 /* PFFingerprintWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFingerprintWindow.h; sourceTree = "<group>"; };
+		4D5BF9AC0DF8ED4700F62675 /* PFFingerprintWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFingerprintWindow.m; sourceTree = "<group>"; };
+		4D786D160EFC6B9E00443870 /* PFHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFHand.h; sourceTree = "<group>"; };
+		4D786D170EFC6B9E00443870 /* PFHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFHand.m; sourceTree = "<group>"; };
+		4D786E430EFD3A2800443870 /* NSImage+ProportionalScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+ProportionalScaling.h"; sourceTree = "<group>"; };
+		4D786E440EFD3A2800443870 /* NSImage+ProportionalScaling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ProportionalScaling.m"; sourceTree = "<group>"; };
+		4D786EEA0EFD4D1100443870 /* HandBundleIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HandBundleIcon.icns; sourceTree = "<group>"; };
+		4D786F5C0EFD616900443870 /* Hands */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Hands; sourceTree = "<group>"; };
+		4D8B7BDA0DB42A890053DE50 /* CoreGraphicsServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsServices.h; sourceTree = "<group>"; };
+		4D8B7BDB0DB42A890053DE50 /* NSWindow+Transforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+Transforms.h"; sourceTree = "<group>"; };
+		4D8B7BDC0DB42A890053DE50 /* NSWindow+Transforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+Transforms.m"; sourceTree = "<group>"; };
+		4D9FE1D60DF92393001D647E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4D9FE2BA0DF933F7001D647E /* PhoneFinger Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "PhoneFinger Help"; sourceTree = "<group>"; };
+		4DF381B60DF9F9960095214E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PhoneFinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneFinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4DF381B70DF9F9960095214E /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BF9AB0DF8ED4700F62675 /* PFFingerprintWindow.h */,
+				4D5BF9AC0DF8ED4700F62675 /* PFFingerprintWindow.m */,
+				4D18F1C80D98B259001B6606 /* PFAppDelegate.h */,
+				4D18F1C90D98B259001B6606 /* PFAppDelegate.m */,
+				4D18F1BB0D98B207001B6606 /* PFHandWindow.h */,
+				4D18F1BC0D98B207001B6606 /* PFHandWindow.m */,
+				4D786D160EFC6B9E00443870 /* PFHand.h */,
+				4D786D170EFC6B9E00443870 /* PFHand.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF381B60DF9F9960095214E /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PhoneFinger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PhoneFinger */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PhoneFinger;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4D8B7BDA0DB42A890053DE50 /* CoreGraphicsServices.h */,
+				4D8B7BDB0DB42A890053DE50 /* NSWindow+Transforms.h */,
+				4D8B7BDC0DB42A890053DE50 /* NSWindow+Transforms.m */,
+				32CA4F630368D1EE00C91783 /* PhoneFinger_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				4D786E430EFD3A2800443870 /* NSImage+ProportionalScaling.h */,
+				4D786E440EFD3A2800443870 /* NSImage+ProportionalScaling.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D786F5C0EFD616900443870 /* Hands */,
+				4D786EEA0EFD4D1100443870 /* HandBundleIcon.icns */,
+				4D9FE2BA0DF933F7001D647E /* PhoneFinger Help */,
+				4D9FE1D50DF92393001D647E /* MainMenu.xib */,
+				4D5BF9A50DF8ED2800F62675 /* fingerprint1.png */,
+				4D12C4420DAFE28B00FFBAFB /* iPhoneFinger.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PhoneFinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PhoneFinger" */;
+			buildPhases = (
+				4DF381E90DF9F9D60095214E /* CopyFiles */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneFinger;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PhoneFinger;
+			productReference = 8D1107320486CEB800E47090 /* PhoneFinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PhoneFinger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PhoneFinger */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PhoneFinger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4D12C4430DAFE28B00FFBAFB /* iPhoneFinger.icns in Resources */,
+				4D5BF9A60DF8ED2800F62675 /* fingerprint1.png in Resources */,
+				4D9FE1D70DF92393001D647E /* MainMenu.xib in Resources */,
+				4D9FE2C00DF933F7001D647E /* PhoneFinger Help in Resources */,
+				4D786EEB0EFD4D1100443870 /* HandBundleIcon.icns in Resources */,
+				4D786F6D0EFD616900443870 /* Hands in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				4D18F1BD0D98B207001B6606 /* PFHandWindow.m in Sources */,
+				4D18F1CA0D98B259001B6606 /* PFAppDelegate.m in Sources */,
+				4D8B7BDD0DB42A890053DE50 /* NSWindow+Transforms.m in Sources */,
+				4D5BF9AD0DF8ED4700F62675 /* PFFingerprintWindow.m in Sources */,
+				4D786D180EFC6B9E00443870 /* PFHand.m in Sources */,
+				4D786E450EFD3A2800443870 /* NSImage+ProportionalScaling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D9FE1D50DF92393001D647E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D9FE1D60DF92393001D647E /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhoneFinger_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = PhoneFinger;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhoneFinger_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = PhoneFinger;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PhoneFinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PhoneFinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

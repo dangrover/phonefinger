@@ -1,0 +1,109 @@
+h1, h2, h3 {
+	font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+body{
+	margin: 0;padding: 0;
+}
+
+img {
+	border: none;
+}
+
+#page-body, #header {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+p, li, dt, dd {
+	font-size: 11px;
+	line-height: 18px;
+	font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+dl.versions dd {
+	padding-left: 0;
+	margin-left: 0;
+	margin-bottom: 16px;
+}
+
+dl.versions dt {
+	font-weight: bold;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	display: inline;
+	vertical-align: middle;
+}
+
+h2 {
+	margin-top: 24px;
+	font-size: 12px;
+		clear: both;
+}
+
+h2 img {
+	width: 18px;
+	height: 18px;
+	margin-right: 6px;
+	position: relative;
+	top: 2px;
+}
+
+.credits dt {
+	margin-top: 16px;
+}
+
+
+p img {
+	vertical-align: middle;
+}
+
+p.code {
+	font-size: 9px;
+	background: #eee;
+	border: #999 1px dotted;
+	padding: 5px;
+	font-family: monospace;
+}
+
+dl.varlist{
+	margin:0;
+	min-height: 8em;
+}
+
+dl.varlist dt{
+	font-family: monospace;
+	font-weight:bold;
+}
+
+dl.varlist dd{
+	margin-left:1em;
+	margin-bottom:1em;
+	font-style:oblique;
+}
+
+
+.logo{
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+}
+
+#header{
+	height: 60px;
+	clear: both;
+	padding: 20px;
+	vertical-align: middle;
+	background: #eee;
+	margin-bottom: 20px;
+}
+
+.copyright{
+	margin-top: 50px;
+	font-size: 9px;
+}
