@@ -3,7 +3,7 @@
 //  PhoneFinger
 //
 //  Created by Daniel Grover on 12/19/08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
+//  Copyright 2008 Wonder Warp Software LLC. All rights reserved.
 //
 
 #import "PFHand.h"
@@ -64,7 +64,7 @@
 	// Grab all the paths to the .hands in the path.
 	NSMutableArray *dirContents = [NSMutableArray arrayWithArray:[fileManager contentsOfDirectoryAtPath:dirPath error:&error]];
 	if(error){ 
-		NSLog([error description]);
+		NSLog(@"Error loading custom .hands: %@", error);
 		return available;
 	}
 	
@@ -75,6 +75,7 @@
 		NSString *infoPlistPath = [handPath stringByAppendingPathComponent:@"Info.plist"];
 		if ([fileManager fileExistsAtPath:infoPlistPath]){
 			NSDictionary *properties = [[NSString stringWithContentsOfFile:infoPlistPath] propertyList];
+            
 			NSString *handName;
 			if(properties && (handName = [properties valueForKey:PFHand_Attribute_Name])){
 				[available setObject:handPath forKey:handName];
@@ -130,7 +131,6 @@
 }
 
 - (id) init{
-	
 	if(self = [super init]){
 		minScaleFactor = PFHand_DefaultMinScaleFactor;
 		maxScaleFactor = PFHand_DefaultMaxScaleFactor;
@@ -138,7 +138,6 @@
 	
 	return self;
 }
-
 
 - (void)dealloc {
     [upImage release];

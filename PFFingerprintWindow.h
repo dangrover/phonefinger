@@ -1,9 +1,9 @@
 //
 //  IFFingerprintWindow.h
-//  iphonefinger
+//  PhoneFinger
 //
 //  Created by Daniel Grover on 6/5/08.
-//  Copyright 2008 __MyCompanyName__. All rights reserved.
+//  Copyright 2008 Wonder Warp Software LLC. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

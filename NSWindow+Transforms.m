@@ -3,7 +3,7 @@
 //  TypePad-Uploader
 //
 //  Created by Nicholas Gerakines on 4/28/06.
-//  Copyright 2006 __MyCompanyName__. All rights reserved.
+//  Copyright 2006 Wonder Warp Software LLC. All rights reserved.
 //
 
 #import "NSWindow+Transforms.h"

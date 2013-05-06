@@ -30,7 +30,7 @@
 	<key>CFBundleHelpBookName</key>
 	<string>PhoneFinger Help</string>
 	<key>CFBundleIconFile</key>
-	<string>iPhoneFinger.icns</string>
+	<string>PhoneFinger.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.wonderwarp.phonefinger</string>
 	<key>CFBundleInfoDictionaryVersion</key>

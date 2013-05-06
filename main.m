@@ -1,9 +1,9 @@
 //
 //  main.m
-//  iphonefinger
+//  PhoneFinger
 //
 //  Created by Daniel Grover on 3/25/08.
-//  Copyright Wonder Warp Software SP 2008. All rights reserved.
+//  Copyright Wonder Warp Software LLC 2008. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
