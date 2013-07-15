@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="PhoneFinger : A free &quot;finger simulator&quot; for demoing iOS apps on your Mac" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>PhoneFinger</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dangrover/phonefinger">View on GitHub</a>
+
+          <h1 id="project_title">PhoneFinger</h1>
+          <h2 id="project_tagline">A free &quot;finger simulator&quot; for demoing iOS apps on your Mac</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/dangrover/phonefinger/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/dangrover/phonefinger/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="phonefinger" class="anchor" href="#phonefinger"><span class="octicon octicon-link"></span></a>PhoneFinger</h1>
+
+<p>PhoneFinger transforms your Mac's mouse cursor into a realistic simulated human finger for testing and demoing iPhone applications and websites. It was released in 2008 as freeware and is now open-source.</p>
+
+<h3>
+<a name="as-seen-in-demos-for" class="anchor" href="#as-seen-in-demos-for"><span class="octicon octicon-link"></span></a>As Seen In Demos For</h3>
+
+<p><a href="http://www.kismetworldwide.com/WasteNot/">WasteNot</a><br><a href="http://www.ambrosiasw.com/games/akimobile/">Aki Mahjong</a><br><a href="http://www.youtube.com/watch?v=eB-bh55OrbQ">Comixology</a><br><a href="http://www.youtube.com/watch?v=eGCa2QAhC2A">WHERE</a><br><a href="http://www.youtube.com/watch?v=JjDTpWFl2kA">cocos2d</a><br><a href="http://cubecheater.efaller.com/">CubeCheater</a><br><a href="http://www.youtube.com/watch?v=3H8SeTyYXkY">Chris Pirillo</a><br><a href="http://www.youtube.com/watch?v=J2HdUuM_2Gk">Quantum Pool</a><br><a href="http://www.pentopuzzle.com/">Pentos</a></p>
+
+<h3>
+<a name="hand-format" class="anchor" href="#hand-format"><span class="octicon octicon-link"></span></a>Hand Format</h3>
+
+<p></p><p>PhoneFinger uses its own <code>.hand</code> format to bundle hand graphics and related information. In addition to those that are built-in, PhoneFinger will use .hands from <code>~/Library/Application Support/PhoneFinger/Hands</code>.</p>
+
+<p>A .hand file is actually a folder — you can right-click on it and choose "Show Package Contents" to look inside. Inside of a .hand package are the images the hand uses as well as an Info.plist file. So, to make a hand, just drop all the images and a customized Info.plist into a folder whose name ends with .hand, and drag it into the Hands folder. You'll have to restart PhoneFinger for the hand to show up.</p>
+
+<p>The Info.plist can contain the following values:</p>
+
+<dl>
+<dt><code>PFHandName</code></dt>
+<dd>The readable name of your hand. Displayed in the hand model menu in the app.</dd>
+<dt>
+<code>PFHandAuthor</code>optional</dt>
+<dd>The person or company responsible for the hand. Not displayed currently.</dd>
+<dt>
+<code>PFHandAuthorWebsite</code>optional</dt>
+<dd>The URL or email associated with the above. Not displayed currently.</dd>
+<dt>
+<code>PFHandDescription</code>optional</dt>
+<dd>A description of the hand. Not displayed currently.</dd>
+<dt>
+<code>PFHandVersion</code>optional</dt>
+<dd>A version number for your hand to distinguish newer versions from older ones.</dd>
+<dt><code>PFHandUpImage</code></dt>
+<dd>The filename of the image that is displayed when no mouse button is pressed.</dd>
+<dt><code>PFHandDownImage</code></dt>
+<dd>The filename of the image that is displayed when at least one mouse button is pressed.</dd>
+<dt><code>PFHandHotspotX</code></dt>
+<dd>The location of the active part of the image (where a click will actually happen) expressed as a number of pixels from the left of the image </dd>
+<dt><code>PFHandHotspotY</code></dt>
+<dd>The location of the active part of the image (where a click will actually happen) expressed as a number of pixels from the top of the image </dd>
+<dt>
+<code>PFHandMinScaleFactor</code>optional</dt>
+<dd>A number from 0 to 1.0 expressing the ratio to which your image will be scaled when the user selects the smallest size. You must also specify <code>PFHandMaxScaleFactor</code> if you specify this property.</dd>
+<dt>
+<code>PFHandMaxScaleFactor</code>optional</dt>
+<dd>A number from 0 to 1.0 expressing the ratio to which your image will be scaled when the user selects the largest size.</dd>
+</dl>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">PhoneFinger maintained by <a href="https://github.com/dangrover">dangrover</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
