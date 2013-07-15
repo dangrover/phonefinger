@@ -30,9 +30,7 @@
 		[self clearPrints];
 		
 		self._fingerPrint = [NSImage imageNamed:@"fingerprint1.png"];
-		//[self makePrintAtPoint:NSMakePoint(300,300) scale:0.5 opacity:0.5 angle:25];
 		[self _update];
-		//NSLog(@"my frame is at %f,%f,%f,%f",[self frame].origin.x,[self frame].origin.y,[self frame].size.width,[self frame].size.height);
         return self;
     }
 	
@@ -42,10 +40,6 @@
 
 - (void) makePrintAtPoint:(NSPoint)point scale:(float)scale opacity:(float)opacity angle:(float)angle{
 	[self._slate lockFocus];
-	
-	/*NSAffineTransform* xform = [NSAffineTransform transform];
-	[xform rotateByDegrees:angle];
-	[xform concat];*/
 	
 	NSSize printSize = [_fingerPrint size];
 	NSSize scaledPrintSize = printSize;
@@ -62,7 +56,6 @@
 }
 
 - (void) clearPrints{
-	//NSLog(@"clearing prints");
 	self._slate = [[[NSImage alloc] initWithSize:[self frame].size] autorelease];
 	[_slate lockFocus];
 	[[NSColor clearColor] set];

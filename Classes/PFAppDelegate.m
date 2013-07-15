@@ -28,7 +28,7 @@
 CGEventRef followEventCallback(CGEventTapProxy proxy, CGEventType type,  CGEventRef event, void *refcon){
 	PFAppDelegate *del = [NSApp delegate];
 	
-	// TODO simplify this with masks or something
+	// TODO just check the event against a mask for each type
 	
 	if ( (type == kCGEventLeftMouseDown) || (type == kCGEventRightMouseDown) || (type == kCGEventOtherMouseDown)){
 		[del mouseDown];
@@ -53,9 +53,9 @@ CGEventRef followEventCallback(CGEventTapProxy proxy, CGEventType type,  CGEvent
 
 - (void) mouseDown{
 	[fingerWindow setImageWithMouseDown:YES];
-
+    
 	if ([[NSUserDefaults standardUserDefaults] boolForKey:PFPrefs_MakeSmudges]){
-
+        
 		NSPoint loc = [NSEvent mouseLocation];
 		for(PFFingerprintWindow *printWindow in self.fingerprintWindows){
 			if(NSPointInRect(loc, [printWindow frame])){
@@ -63,7 +63,7 @@ CGEventRef followEventCallback(CGEventTapProxy proxy, CGEventType type,  CGEvent
 				
 				[printWindow makePrintAtPoint:NSMakePoint(windowCoord.x,windowCoord.y + fingerWindow.hand.hotspot.y)
 										scale: (0.3 + ((rand() / ((double)RAND_MAX + 1)) / 10.0)) * fingerWindow.scaleFactor
-									  opacity:(rand() / ((double)RAND_MAX + 1))/5.0 
+									  opacity:(rand() / ((double)RAND_MAX + 1))/5.0
 										angle:0];
 				return;
 			}
@@ -72,30 +72,12 @@ CGEventRef followEventCallback(CGEventTapProxy proxy, CGEventType type,  CGEvent
 }
 
 - (void) follow{
-	
-	//float screenWidth = [[NSScreen mainScreen] frame].size.width;
 	NSPoint loc = [NSEvent mouseLocation];
-/*	if(NSPointInRect(loc,[settingsPanel frame])){
-		[fingerWindow setAlphaValue:0.35];
-		[NSCursor unhide];
-	}else{
-		[fingerWindow setAlphaValue:1];
-		[NSCursor hide];
-	}*/
-	
+    
 	[NSCursor hide];
-	
-	//float proportion = ((screenWidth/2.0) - loc.x) / screenWidth * 0.3;
-	//CGAffineTransform trans = [fingerWindow rotationTransformForPoint:NSMakePoint(180,400) radians:(proportion - lastProp)];
-	//[fingerWindow applyTransform:trans];
-
-	//NSPoint local = NSMakePoint(180, 400);
-	//CGPoint res = CGPointApplyAffineTransform(CGPointMake(local.x,local.y),trans);
-	//NSLog(@"%f,%f -> %f,%f",local.x, local.y, res.x,res.y);
 	
 	[fingerWindow orientAroundPoint:loc];
 	
-	//lastProp = proportion;
 	lastX = loc.x;
 	lastY = loc.y;
 }
@@ -103,8 +85,7 @@ CGEventRef followEventCallback(CGEventTapProxy proxy, CGEventType type,  CGEvent
 
 #pragma mark -
 
-- (void) awakeFromNib
-{
+- (void) awakeFromNib{
 	[self _registerDefaultPrefs];
 	srand(time(NULL));
 	[settingsPanel setShowsResizeIndicator:NO];
@@ -125,7 +106,7 @@ CGEventRef followEventCallback(CGEventTapProxy proxy, CGEventType type,  CGEvent
 	
 	[self newHandChosen:nil];
 	
-
+    
 	// Set up fingerprints window for each screen.
 	NSArray *screens = [NSScreen screens];
 	self.fingerprintWindows = [NSMutableArray array];
@@ -210,7 +191,7 @@ CGEventRef followEventCallback(CGEventTapProxy proxy, CGEventType type,  CGEvent
 	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.wonderwarp.com/phonefinger/donate"]];
 }
 
-- (BOOL)application:(NSApplication *)theApplication openFile:(NSString *)filename{	
+- (BOOL)application:(NSApplication *)theApplication openFile:(NSString *)filename{
 	if([[filename pathExtension] isEqualToString:@"hand"]){
 		NSString *name = [[filename pathComponents] objectAtIndex:[[filename pathComponents] count]-1];
 		NSFileManager *fileManager = [NSFileManager defaultManager];
@@ -223,14 +204,14 @@ CGEventRef followEventCallback(CGEventTapProxy proxy, CGEventType type,  CGEvent
 			[self _createUserHandsPath];
 			BOOL worked = [fileManager copyPath:filename toPath:movedPath handler:nil];
 			if(worked){
-				[self _reloadHandList];
-				NSString *handName = [[availableHands allKeysForObject:movedPath] objectAtIndex:0];
-				[handSelector selectItemAtIndex:[[availableHands allKeys] indexOfObject:handName]];
-				[self newHandChosen:nil];
-				return YES;
+                    [self _reloadHandList];
+                    NSString *handName = [[availableHands allKeysForObject:movedPath] objectAtIndex:0];
+                    [handSelector selectItemAtIndex:[[availableHands allKeys] indexOfObject:handName]];
+                    [self newHandChosen:nil];
+                    return YES;
 			}else{
-				NSLog(@"Could not move hand: %@",filename);
-				return NO;
+                    NSLog(@"Could not move hand: %@",filename);
+                    return NO;
 			}
 		}
 	}
