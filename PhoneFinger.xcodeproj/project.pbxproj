@@ -7,22 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D12C4430DAFE28B00FFBAFB /* iPhoneFinger.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4D12C4420DAFE28B00FFBAFB /* iPhoneFinger.icns */; };
-		4D18F1BD0D98B207001B6606 /* PFHandWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D18F1BC0D98B207001B6606 /* PFHandWindow.m */; };
-		4D18F1CA0D98B259001B6606 /* PFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D18F1C90D98B259001B6606 /* PFAppDelegate.m */; };
-		4D5BF9A60DF8ED2800F62675 /* fingerprint1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BF9A50DF8ED2800F62675 /* fingerprint1.png */; };
-		4D5BF9AD0DF8ED4700F62675 /* PFFingerprintWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF9AC0DF8ED4700F62675 /* PFFingerprintWindow.m */; };
-		4D786D180EFC6B9E00443870 /* PFHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D786D170EFC6B9E00443870 /* PFHand.m */; };
-		4D786E450EFD3A2800443870 /* NSImage+ProportionalScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D786E440EFD3A2800443870 /* NSImage+ProportionalScaling.m */; };
-		4D786EEB0EFD4D1100443870 /* HandBundleIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4D786EEA0EFD4D1100443870 /* HandBundleIcon.icns */; };
 		4D786F6D0EFD616900443870 /* Hands in Resources */ = {isa = PBXBuildFile; fileRef = 4D786F5C0EFD616900443870 /* Hands */; };
-		4D8B7BDD0DB42A890053DE50 /* NSWindow+Transforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B7BDC0DB42A890053DE50 /* NSWindow+Transforms.m */; };
-		4D9FE1D70DF92393001D647E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9FE1D50DF92393001D647E /* MainMenu.xib */; };
-		4D9FE2C00DF933F7001D647E /* PhoneFinger Help in Resources */ = {isa = PBXBuildFile; fileRef = 4D9FE2BA0DF933F7001D647E /* PhoneFinger Help */; };
-		4DF381B70DF9F9960095214E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF381B60DF9F9960095214E /* Sparkle.framework */; };
-		4DF381CF0DF9F9CA0095214E /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DF381B60DF9F9960095214E /* Sparkle.framework */; };
-		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		4D79A81417946D6800FB5BAB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D79A80717946D6800FB5BAB /* MainMenu.xib */; };
+		4D79A81517946D6800FB5BAB /* fingerprint1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D79A80917946D6800FB5BAB /* fingerprint1.png */; };
+		4D79A81617946D6800FB5BAB /* HandBundleIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4D79A80A17946D6800FB5BAB /* HandBundleIcon.icns */; };
+		4D79A82017946DBE00FB5BAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A81F17946DBE00FB5BAB /* main.m */; };
+		4D79A82217946E2800FB5BAB /* iPhoneFinger.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4D79A82117946E2800FB5BAB /* iPhoneFinger.icns */; };
+		4D79A82317946EFB00FB5BAB /* PFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A7FD17946D4700FB5BAB /* PFAppDelegate.m */; };
+		4D79A82417946F0400FB5BAB /* PFFingerprintWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A7FF17946D4700FB5BAB /* PFFingerprintWindow.m */; };
+		4D79A82517946F0400FB5BAB /* PFHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A80117946D4700FB5BAB /* PFHand.m */; };
+		4D79A82617946F0400FB5BAB /* PFHandWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A80317946D4700FB5BAB /* PFHandWindow.m */; };
+		4D79A82717946F0400FB5BAB /* NSImage+ProportionalScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A7F717946D2700FB5BAB /* NSImage+ProportionalScaling.m */; };
+		4D79A82817946F0400FB5BAB /* NSWindow+Transforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79A7F917946D3300FB5BAB /* NSWindow+Transforms.m */; };
+		4D79A82A17946F2800FB5BAB /* PhoneFinger Help in Resources */ = {isa = PBXBuildFile; fileRef = 4D79A82917946F2800FB5BAB /* PhoneFinger Help */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,41 +30,38 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4DF381CF0DF9F9CA0095214E /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32CA4F630368D1EE00C91783 /* PhoneFinger_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneFinger_Prefix.pch; sourceTree = "<group>"; };
-		4D12C4420DAFE28B00FFBAFB /* iPhoneFinger.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iPhoneFinger.icns; sourceTree = "<group>"; };
-		4D18F1BB0D98B207001B6606 /* PFHandWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFHandWindow.h; sourceTree = "<group>"; };
-		4D18F1BC0D98B207001B6606 /* PFHandWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFHandWindow.m; sourceTree = "<group>"; };
-		4D18F1C80D98B259001B6606 /* PFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFAppDelegate.h; sourceTree = "<group>"; };
-		4D18F1C90D98B259001B6606 /* PFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFAppDelegate.m; sourceTree = "<group>"; };
-		4D5BF9A50DF8ED2800F62675 /* fingerprint1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fingerprint1.png; sourceTree = "<group>"; };
-		4D5BF9AB0DF8ED4700F62675 /* PFFingerprintWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFingerprintWindow.h; sourceTree = "<group>"; };
-		4D5BF9AC0DF8ED4700F62675 /* PFFingerprintWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFingerprintWindow.m; sourceTree = "<group>"; };
-		4D786D160EFC6B9E00443870 /* PFHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFHand.h; sourceTree = "<group>"; };
-		4D786D170EFC6B9E00443870 /* PFHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFHand.m; sourceTree = "<group>"; };
-		4D786E430EFD3A2800443870 /* NSImage+ProportionalScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+ProportionalScaling.h"; sourceTree = "<group>"; };
-		4D786E440EFD3A2800443870 /* NSImage+ProportionalScaling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ProportionalScaling.m"; sourceTree = "<group>"; };
-		4D786EEA0EFD4D1100443870 /* HandBundleIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HandBundleIcon.icns; sourceTree = "<group>"; };
 		4D786F5C0EFD616900443870 /* Hands */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Hands; sourceTree = "<group>"; };
-		4D8B7BDA0DB42A890053DE50 /* CoreGraphicsServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsServices.h; sourceTree = "<group>"; };
-		4D8B7BDB0DB42A890053DE50 /* NSWindow+Transforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+Transforms.h"; sourceTree = "<group>"; };
-		4D8B7BDC0DB42A890053DE50 /* NSWindow+Transforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+Transforms.m"; sourceTree = "<group>"; };
-		4D9FE1D60DF92393001D647E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4D9FE2BA0DF933F7001D647E /* PhoneFinger Help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "PhoneFinger Help"; sourceTree = "<group>"; };
-		4DF381B60DF9F9960095214E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D79A7F617946D2700FB5BAB /* NSImage+ProportionalScaling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSImage+ProportionalScaling.h"; path = "Classes/NSImage+ProportionalScaling.h"; sourceTree = "<group>"; };
+		4D79A7F717946D2700FB5BAB /* NSImage+ProportionalScaling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSImage+ProportionalScaling.m"; path = "Classes/NSImage+ProportionalScaling.m"; sourceTree = "<group>"; };
+		4D79A7F817946D3300FB5BAB /* NSWindow+Transforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSWindow+Transforms.h"; path = "Classes/NSWindow+Transforms.h"; sourceTree = "<group>"; };
+		4D79A7F917946D3300FB5BAB /* NSWindow+Transforms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSWindow+Transforms.m"; path = "Classes/NSWindow+Transforms.m"; sourceTree = "<group>"; };
+		4D79A7FB17946D3D00FB5BAB /* CoreGraphicsServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CoreGraphicsServices.h; path = Classes/CoreGraphicsServices.h; sourceTree = "<group>"; };
+		4D79A7FC17946D4700FB5BAB /* PFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PFAppDelegate.h; path = Classes/PFAppDelegate.h; sourceTree = "<group>"; };
+		4D79A7FD17946D4700FB5BAB /* PFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PFAppDelegate.m; path = Classes/PFAppDelegate.m; sourceTree = "<group>"; };
+		4D79A7FE17946D4700FB5BAB /* PFFingerprintWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PFFingerprintWindow.h; path = Classes/PFFingerprintWindow.h; sourceTree = "<group>"; };
+		4D79A7FF17946D4700FB5BAB /* PFFingerprintWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PFFingerprintWindow.m; path = Classes/PFFingerprintWindow.m; sourceTree = "<group>"; };
+		4D79A80017946D4700FB5BAB /* PFHand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PFHand.h; path = Classes/PFHand.h; sourceTree = "<group>"; };
+		4D79A80117946D4700FB5BAB /* PFHand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PFHand.m; path = Classes/PFHand.m; sourceTree = "<group>"; };
+		4D79A80217946D4700FB5BAB /* PFHandWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PFHandWindow.h; path = Classes/PFHandWindow.h; sourceTree = "<group>"; };
+		4D79A80317946D4700FB5BAB /* PFHandWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PFHandWindow.m; path = Classes/PFHandWindow.m; sourceTree = "<group>"; };
+		4D79A80817946D6800FB5BAB /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = MainMenu.xib; sourceTree = "<group>"; };
+		4D79A80917946D6800FB5BAB /* fingerprint1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fingerprint1.png; path = Resources/fingerprint1.png; sourceTree = "<group>"; };
+		4D79A80A17946D6800FB5BAB /* HandBundleIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = HandBundleIcon.icns; path = Resources/HandBundleIcon.icns; sourceTree = "<group>"; };
+		4D79A80B17946D6800FB5BAB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		4D79A81E17946DAA00FB5BAB /* PhoneFinger_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneFinger_Prefix.pch; sourceTree = "<group>"; };
+		4D79A81F17946DBE00FB5BAB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = "<group>"; };
+		4D79A82117946E2800FB5BAB /* iPhoneFinger.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iPhoneFinger.icns; sourceTree = "<group>"; };
+		4D79A82917946F2800FB5BAB /* PhoneFinger Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "PhoneFinger Help"; path = "Resources/PhoneFinger Help"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* PhoneFinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneFinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +71,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				4DF381B70DF9F9960095214E /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,14 +80,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4D5BF9AB0DF8ED4700F62675 /* PFFingerprintWindow.h */,
-				4D5BF9AC0DF8ED4700F62675 /* PFFingerprintWindow.m */,
-				4D18F1C80D98B259001B6606 /* PFAppDelegate.h */,
-				4D18F1C90D98B259001B6606 /* PFAppDelegate.m */,
-				4D18F1BB0D98B207001B6606 /* PFHandWindow.h */,
-				4D18F1BC0D98B207001B6606 /* PFHandWindow.m */,
-				4D786D160EFC6B9E00443870 /* PFHand.h */,
-				4D786D170EFC6B9E00443870 /* PFHand.m */,
+				4D79A7FC17946D4700FB5BAB /* PFAppDelegate.h */,
+				4D79A7FD17946D4700FB5BAB /* PFAppDelegate.m */,
+				4D79A7FE17946D4700FB5BAB /* PFFingerprintWindow.h */,
+				4D79A7FF17946D4700FB5BAB /* PFFingerprintWindow.m */,
+				4D79A80017946D4700FB5BAB /* PFHand.h */,
+				4D79A80117946D4700FB5BAB /* PFHand.m */,
+				4D79A80217946D4700FB5BAB /* PFHandWindow.h */,
+				4D79A80317946D4700FB5BAB /* PFHandWindow.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -102,7 +95,6 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4DF381B60DF9F9960095214E /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -141,13 +133,13 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4D8B7BDA0DB42A890053DE50 /* CoreGraphicsServices.h */,
-				4D8B7BDB0DB42A890053DE50 /* NSWindow+Transforms.h */,
-				4D8B7BDC0DB42A890053DE50 /* NSWindow+Transforms.m */,
-				32CA4F630368D1EE00C91783 /* PhoneFinger_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
-				4D786E430EFD3A2800443870 /* NSImage+ProportionalScaling.h */,
-				4D786E440EFD3A2800443870 /* NSImage+ProportionalScaling.m */,
+				4D79A81E17946DAA00FB5BAB /* PhoneFinger_Prefix.pch */,
+				4D79A7FB17946D3D00FB5BAB /* CoreGraphicsServices.h */,
+				4D79A7F617946D2700FB5BAB /* NSImage+ProportionalScaling.h */,
+				4D79A7F717946D2700FB5BAB /* NSImage+ProportionalScaling.m */,
+				4D79A7F817946D3300FB5BAB /* NSWindow+Transforms.h */,
+				4D79A7F917946D3300FB5BAB /* NSWindow+Transforms.m */,
+				4D79A81F17946DBE00FB5BAB /* main.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -155,14 +147,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4D79A82917946F2800FB5BAB /* PhoneFinger Help */,
+				4D79A82117946E2800FB5BAB /* iPhoneFinger.icns */,
+				4D79A80717946D6800FB5BAB /* MainMenu.xib */,
+				4D79A80917946D6800FB5BAB /* fingerprint1.png */,
+				4D79A80A17946D6800FB5BAB /* HandBundleIcon.icns */,
+				4D79A80B17946D6800FB5BAB /* Info.plist */,
 				4D786F5C0EFD616900443870 /* Hands */,
-				4D786EEA0EFD4D1100443870 /* HandBundleIcon.icns */,
-				4D9FE2BA0DF933F7001D647E /* PhoneFinger Help */,
-				4D9FE1D50DF92393001D647E /* MainMenu.xib */,
-				4D5BF9A50DF8ED2800F62675 /* fingerprint1.png */,
-				4D12C4420DAFE28B00FFBAFB /* iPhoneFinger.icns */,
-				8D1107310486CEB800E47090 /* Info.plist */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -212,6 +203,7 @@
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* PhoneFinger */;
 			projectDirPath = "";
@@ -227,13 +219,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				4D12C4430DAFE28B00FFBAFB /* iPhoneFinger.icns in Resources */,
-				4D5BF9A60DF8ED2800F62675 /* fingerprint1.png in Resources */,
-				4D9FE1D70DF92393001D647E /* MainMenu.xib in Resources */,
-				4D9FE2C00DF933F7001D647E /* PhoneFinger Help in Resources */,
-				4D786EEB0EFD4D1100443870 /* HandBundleIcon.icns in Resources */,
 				4D786F6D0EFD616900443870 /* Hands in Resources */,
+				4D79A81417946D6800FB5BAB /* MainMenu.xib in Resources */,
+				4D79A81517946D6800FB5BAB /* fingerprint1.png in Resources */,
+				4D79A81617946D6800FB5BAB /* HandBundleIcon.icns in Resources */,
+				4D79A82217946E2800FB5BAB /* iPhoneFinger.icns in Resources */,
+				4D79A82A17946F2800FB5BAB /* PhoneFinger Help in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,33 +235,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				4D18F1BD0D98B207001B6606 /* PFHandWindow.m in Sources */,
-				4D18F1CA0D98B259001B6606 /* PFAppDelegate.m in Sources */,
-				4D8B7BDD0DB42A890053DE50 /* NSWindow+Transforms.m in Sources */,
-				4D5BF9AD0DF8ED4700F62675 /* PFFingerprintWindow.m in Sources */,
-				4D786D180EFC6B9E00443870 /* PFHand.m in Sources */,
-				4D786E450EFD3A2800443870 /* NSImage+ProportionalScaling.m in Sources */,
+				4D79A82017946DBE00FB5BAB /* main.m in Sources */,
+				4D79A82317946EFB00FB5BAB /* PFAppDelegate.m in Sources */,
+				4D79A82417946F0400FB5BAB /* PFFingerprintWindow.m in Sources */,
+				4D79A82517946F0400FB5BAB /* PFHand.m in Sources */,
+				4D79A82617946F0400FB5BAB /* PFHandWindow.m in Sources */,
+				4D79A82717946F0400FB5BAB /* NSImage+ProportionalScaling.m in Sources */,
+				4D79A82817946F0400FB5BAB /* NSWindow+Transforms.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+		4D79A80717946D6800FB5BAB /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4D9FE1D50DF92393001D647E /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D9FE1D60DF92393001D647E /* English */,
+				4D79A80817946D6800FB5BAB /* English */,
 			);
 			name = MainMenu.xib;
+			path = Resources/English.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,7 +276,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PhoneFinger_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = PhoneFinger;
@@ -314,7 +298,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PhoneFinger_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = PhoneFinger;
